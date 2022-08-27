@@ -2,7 +2,7 @@ import UIKit
 
 final class MainViewController: UIViewController {
 
-    //MARK: - IBOutlets
+    //MARK: - @IBOutlet
     @IBOutlet weak var greetingLabel: UILabel!
     
     var presenter: MainViewPresenterProtocol!
@@ -12,6 +12,7 @@ final class MainViewController: UIViewController {
 
     }
     
+    //MARK: - @IBAction
     @IBAction func didTapButtonAction(_ sender: Any) {
         presenter.showGreeting()
     }

@@ -18,6 +18,8 @@
 		D8A033D228BA385D00D56A39 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A033D128BA385D00D56A39 /* Person.swift */; };
 		D8A033DD28BA3A0C00D56A39 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A033DC28BA3A0C00D56A39 /* MainViewController.swift */; };
 		D8A033DF28BA3A1B00D56A39 /* MainViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A033DE28BA3A1B00D56A39 /* MainViewPresenter.swift */; };
+		D8A033E328BA42AC00D56A39 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8A033E228BA42AC00D56A39 /* MainViewController.xib */; };
+		D8A033E528BA43D400D56A39 /* ModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A033E428BA43D400D56A39 /* ModuleBuilder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		D8A033D128BA385D00D56A39 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		D8A033DC28BA3A0C00D56A39 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		D8A033DE28BA3A1B00D56A39 /* MainViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewPresenter.swift; sourceTree = "<group>"; };
+		D8A033E228BA42AC00D56A39 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		D8A033E428BA43D400D56A39 /* ModuleBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleBuilder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +155,7 @@
 				D8A033AF28BA384F00D56A39 /* Info.plist */,
 				D8A033A128BA384E00D56A39 /* AppDelegate.swift */,
 				D8A033A328BA384E00D56A39 /* SceneDelegate.swift */,
+				D8A033E428BA43D400D56A39 /* ModuleBuilder.swift */,
 			);
 			path = Application;
 			sourceTree = "<group>";
@@ -177,6 +182,7 @@
 			isa = PBXGroup;
 			children = (
 				D8A033DC28BA3A0C00D56A39 /* MainViewController.swift */,
+				D8A033E228BA42AC00D56A39 /* MainViewController.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -296,6 +302,7 @@
 				D8A033AE28BA384F00D56A39 /* LaunchScreen.storyboard in Resources */,
 				D8A033AB28BA384F00D56A39 /* Assets.xcassets in Resources */,
 				D8A033A928BA384E00D56A39 /* Main.storyboard in Resources */,
+				D8A033E328BA42AC00D56A39 /* MainViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,6 +332,7 @@
 				D8A033DF28BA3A1B00D56A39 /* MainViewPresenter.swift in Sources */,
 				D8A033A428BA384E00D56A39 /* SceneDelegate.swift in Sources */,
 				D8A033DD28BA3A0C00D56A39 /* MainViewController.swift in Sources */,
+				D8A033E528BA43D400D56A39 /* ModuleBuilder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

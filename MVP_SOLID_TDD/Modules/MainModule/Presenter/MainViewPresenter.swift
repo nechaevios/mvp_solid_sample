@@ -22,7 +22,7 @@ final class MainViewPresenter: MainViewPresenterProtocol {
     
     /// Abstract view method setGreeting called
     func showGreeting() {
-        let greeting = "Hi" + person.firstName + " " + person.lastName
+        let greeting = "Hi " + person.firstName + " " + person.lastName
         view.setGreeting(greeting: greeting)
     }
 }

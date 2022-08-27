@@ -1,10 +1,3 @@
-//
-//  MVP_SOLID_TDDUITests.swift
-//  MVP_SOLID_TDDUITests
-//
-//  Created by Nechaev Sergey  on 27.08.2022.
-//
-
 import XCTest
 
 class MVP_SOLID_TDDUITests: XCTestCase {

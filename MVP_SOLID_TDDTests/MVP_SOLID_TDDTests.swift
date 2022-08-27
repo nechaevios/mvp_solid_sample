@@ -1,10 +1,3 @@
-//
-//  MVP_SOLID_TDDTests.swift
-//  MVP_SOLID_TDDTests
-//
-//  Created by Nechaev Sergey  on 27.08.2022.
-//
-
 import XCTest
 @testable import MVP_SOLID_TDD
 

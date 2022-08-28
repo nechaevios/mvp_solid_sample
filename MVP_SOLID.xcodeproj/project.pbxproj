@@ -95,7 +95,7 @@
 		D8A0339528BA384E00D56A39 = {
 			isa = PBXGroup;
 			children = (
-				D8A033A028BA384E00D56A39 /* MVP_SOLID_TDD */,
+				D8A033A028BA384E00D56A39 /* MVP_SOLID */,
 				D8A033B728BA384F00D56A39 /* MVP_SOLID_TDDTests */,
 				D8A033C128BA384F00D56A39 /* MVP_SOLID_TDDUITests */,
 				D8A0339F28BA384E00D56A39 /* Products */,
@@ -112,7 +112,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D8A033A028BA384E00D56A39 /* MVP_SOLID_TDD */ = {
+		D8A033A028BA384E00D56A39 /* MVP_SOLID */ = {
 			isa = PBXGroup;
 			children = (
 				D8A033D828BA39AA00D56A39 /* Modules */,
@@ -120,7 +120,7 @@
 				D8A033D428BA387000D56A39 /* Resources */,
 				D8A033F028BB72C200D56A39 /* ServiceLayer */,
 			);
-			path = MVP_SOLID_TDD;
+			path = MVP_SOLID;
 			sourceTree = "<group>";
 		};
 		D8A033B728BA384F00D56A39 /* MVP_SOLID_TDDTests */ = {

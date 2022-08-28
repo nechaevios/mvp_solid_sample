@@ -7,9 +7,9 @@ protocol Builder {
 final class ModuleBuilder: Builder {
     
     static func createMainModule() -> UIViewController {
-        let model = Person(firstName: "Tim", lastName: "Cook")
+        let networkService = NetworkService()
         let viewController = MainViewController()
-        let presenter = MainViewPresenter(view: viewController, person: model)
+        let presenter = MainViewPresenter(view: viewController, networkService: networkService)
         viewController.presenter = presenter
         
         return viewController

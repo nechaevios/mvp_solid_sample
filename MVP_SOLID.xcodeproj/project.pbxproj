@@ -96,8 +96,8 @@
 			isa = PBXGroup;
 			children = (
 				D8A033A028BA384E00D56A39 /* MVP_SOLID */,
-				D8A033B728BA384F00D56A39 /* MVP_SOLID_TDDTests */,
-				D8A033C128BA384F00D56A39 /* MVP_SOLID_TDDUITests */,
+				D8A033B728BA384F00D56A39 /* MVP_SOLIDTests */,
+				D8A033C128BA384F00D56A39 /* MVP_SOLIDUITests */,
 				D8A0339F28BA384E00D56A39 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -123,21 +123,21 @@
 			path = MVP_SOLID;
 			sourceTree = "<group>";
 		};
-		D8A033B728BA384F00D56A39 /* MVP_SOLID_TDDTests */ = {
+		D8A033B728BA384F00D56A39 /* MVP_SOLIDTests */ = {
 			isa = PBXGroup;
 			children = (
 				D8A033EB28BA4F7800D56A39 /* TestsMainModule */,
 			);
-			path = MVP_SOLID_TDDTests;
+			path = MVP_SOLIDTests;
 			sourceTree = "<group>";
 		};
-		D8A033C128BA384F00D56A39 /* MVP_SOLID_TDDUITests */ = {
+		D8A033C128BA384F00D56A39 /* MVP_SOLIDUITests */ = {
 			isa = PBXGroup;
 			children = (
 				D8A033C228BA384F00D56A39 /* MVP_SOLID_TDDUITests.swift */,
 				D8A033C428BA384F00D56A39 /* MVP_SOLID_TDDUITestsLaunchTests.swift */,
 			);
-			path = MVP_SOLID_TDDUITests;
+			path = MVP_SOLIDUITests;
 			sourceTree = "<group>";
 		};
 		D8A033D328BA386100D56A39 /* Model */ = {

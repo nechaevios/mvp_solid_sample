@@ -21,6 +21,6 @@ class NetworkService: NetworkServiceProtocol {
             } catch {
                 completion(.failure(error))
             }
-        }
+        }.resume()
     }
 }

@@ -20,6 +20,7 @@
 		D8A033E328BA42AC00D56A39 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8A033E228BA42AC00D56A39 /* MainViewController.xib */; };
 		D8A033E528BA43D400D56A39 /* ModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A033E428BA43D400D56A39 /* ModuleBuilder.swift */; };
 		D8A033EA28BA4F7000D56A39 /* MainPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A033E928BA4F7000D56A39 /* MainPresenterTests.swift */; };
+		D8A033ED28BB71D400D56A39 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A033EC28BB71D400D56A39 /* Comment.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		D8A033E228BA42AC00D56A39 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 		D8A033E428BA43D400D56A39 /* ModuleBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleBuilder.swift; sourceTree = "<group>"; };
 		D8A033E928BA4F7000D56A39 /* MainPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPresenterTests.swift; sourceTree = "<group>"; };
+		D8A033EC28BB71D400D56A39 /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +137,7 @@
 			isa = PBXGroup;
 			children = (
 				D8A033D128BA385D00D56A39 /* Person.swift */,
+				D8A033EC28BB71D400D56A39 /* Comment.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -171,9 +174,9 @@
 		D8A033DB28BA39D900D56A39 /* MainModule */ = {
 			isa = PBXGroup;
 			children = (
-				D8A033D328BA386100D56A39 /* Model */,
 				D8A033E028BA422800D56A39 /* View */,
 				D8A033E128BA422E00D56A39 /* Presenter */,
+				D8A033D328BA386100D56A39 /* Model */,
 			);
 			path = MainModule;
 			sourceTree = "<group>";
@@ -338,6 +341,7 @@
 				D8A033A228BA384E00D56A39 /* AppDelegate.swift in Sources */,
 				D8A033D228BA385D00D56A39 /* Person.swift in Sources */,
 				D8A033DF28BA3A1B00D56A39 /* MainViewPresenter.swift in Sources */,
+				D8A033ED28BB71D400D56A39 /* Comment.swift in Sources */,
 				D8A033A428BA384E00D56A39 /* SceneDelegate.swift in Sources */,
 				D8A033DD28BA3A0C00D56A39 /* MainViewController.swift in Sources */,
 				D8A033E528BA43D400D56A39 /* ModuleBuilder.swift in Sources */,

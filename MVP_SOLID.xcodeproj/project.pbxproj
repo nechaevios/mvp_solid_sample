@@ -44,15 +44,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D8A0339E28BA384E00D56A39 /* MVP_SOLID_TDD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVP_SOLID_TDD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8A0339E28BA384E00D56A39 /* MVP_SOLID.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVP_SOLID.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8A033A128BA384E00D56A39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D8A033A328BA384E00D56A39 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		D8A033A828BA384E00D56A39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D8A033AA28BA384F00D56A39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D8A033AD28BA384F00D56A39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D8A033AF28BA384F00D56A39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D8A033B428BA384F00D56A39 /* MVP_SOLID_TDDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVP_SOLID_TDDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D8A033BE28BA384F00D56A39 /* MVP_SOLID_TDDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVP_SOLID_TDDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8A033B428BA384F00D56A39 /* MVP_SOLIDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVP_SOLIDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8A033BE28BA384F00D56A39 /* MVP_SOLIDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVP_SOLIDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8A033C228BA384F00D56A39 /* MVP_SOLID_TDDUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVP_SOLID_TDDUITests.swift; sourceTree = "<group>"; };
 		D8A033C428BA384F00D56A39 /* MVP_SOLID_TDDUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVP_SOLID_TDDUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		D8A033DC28BA3A0C00D56A39 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -105,9 +105,9 @@
 		D8A0339F28BA384E00D56A39 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D8A0339E28BA384E00D56A39 /* MVP_SOLID_TDD.app */,
-				D8A033B428BA384F00D56A39 /* MVP_SOLID_TDDTests.xctest */,
-				D8A033BE28BA384F00D56A39 /* MVP_SOLID_TDDUITests.xctest */,
+				D8A0339E28BA384E00D56A39 /* MVP_SOLID.app */,
+				D8A033B428BA384F00D56A39 /* MVP_SOLIDTests.xctest */,
+				D8A033BE28BA384F00D56A39 /* MVP_SOLIDUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -250,9 +250,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D8A0339D28BA384E00D56A39 /* MVP_SOLID_TDD */ = {
+		D8A0339D28BA384E00D56A39 /* MVP_SOLID */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D8A033C828BA384F00D56A39 /* Build configuration list for PBXNativeTarget "MVP_SOLID_TDD" */;
+			buildConfigurationList = D8A033C828BA384F00D56A39 /* Build configuration list for PBXNativeTarget "MVP_SOLID" */;
 			buildPhases = (
 				D8A0339A28BA384E00D56A39 /* Sources */,
 				D8A0339B28BA384E00D56A39 /* Frameworks */,
@@ -262,14 +262,14 @@
 			);
 			dependencies = (
 			);
-			name = MVP_SOLID_TDD;
+			name = MVP_SOLID;
 			productName = MVP_SOLID_TDD;
-			productReference = D8A0339E28BA384E00D56A39 /* MVP_SOLID_TDD.app */;
+			productReference = D8A0339E28BA384E00D56A39 /* MVP_SOLID.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D8A033B328BA384F00D56A39 /* MVP_SOLID_TDDTests */ = {
+		D8A033B328BA384F00D56A39 /* MVP_SOLIDTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D8A033CB28BA384F00D56A39 /* Build configuration list for PBXNativeTarget "MVP_SOLID_TDDTests" */;
+			buildConfigurationList = D8A033CB28BA384F00D56A39 /* Build configuration list for PBXNativeTarget "MVP_SOLIDTests" */;
 			buildPhases = (
 				D8A033B028BA384F00D56A39 /* Sources */,
 				D8A033B128BA384F00D56A39 /* Frameworks */,
@@ -280,14 +280,14 @@
 			dependencies = (
 				D8A033B628BA384F00D56A39 /* PBXTargetDependency */,
 			);
-			name = MVP_SOLID_TDDTests;
+			name = MVP_SOLIDTests;
 			productName = MVP_SOLID_TDDTests;
-			productReference = D8A033B428BA384F00D56A39 /* MVP_SOLID_TDDTests.xctest */;
+			productReference = D8A033B428BA384F00D56A39 /* MVP_SOLIDTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		D8A033BD28BA384F00D56A39 /* MVP_SOLID_TDDUITests */ = {
+		D8A033BD28BA384F00D56A39 /* MVP_SOLIDUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D8A033CE28BA384F00D56A39 /* Build configuration list for PBXNativeTarget "MVP_SOLID_TDDUITests" */;
+			buildConfigurationList = D8A033CE28BA384F00D56A39 /* Build configuration list for PBXNativeTarget "MVP_SOLIDUITests" */;
 			buildPhases = (
 				D8A033BA28BA384F00D56A39 /* Sources */,
 				D8A033BB28BA384F00D56A39 /* Frameworks */,
@@ -298,9 +298,9 @@
 			dependencies = (
 				D8A033C028BA384F00D56A39 /* PBXTargetDependency */,
 			);
-			name = MVP_SOLID_TDDUITests;
+			name = MVP_SOLIDUITests;
 			productName = MVP_SOLID_TDDUITests;
-			productReference = D8A033BE28BA384F00D56A39 /* MVP_SOLID_TDDUITests.xctest */;
+			productReference = D8A033BE28BA384F00D56A39 /* MVP_SOLIDUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -326,7 +326,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D8A0339928BA384E00D56A39 /* Build configuration list for PBXProject "MVP_SOLID_TDD" */;
+			buildConfigurationList = D8A0339928BA384E00D56A39 /* Build configuration list for PBXProject "MVP_SOLID" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -339,9 +339,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D8A0339D28BA384E00D56A39 /* MVP_SOLID_TDD */,
-				D8A033B328BA384F00D56A39 /* MVP_SOLID_TDDTests */,
-				D8A033BD28BA384F00D56A39 /* MVP_SOLID_TDDUITests */,
+				D8A0339D28BA384E00D56A39 /* MVP_SOLID */,
+				D8A033B328BA384F00D56A39 /* MVP_SOLIDTests */,
+				D8A033BD28BA384F00D56A39 /* MVP_SOLIDUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -414,12 +414,12 @@
 /* Begin PBXTargetDependency section */
 		D8A033B628BA384F00D56A39 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D8A0339D28BA384E00D56A39 /* MVP_SOLID_TDD */;
+			target = D8A0339D28BA384E00D56A39 /* MVP_SOLID */;
 			targetProxy = D8A033B528BA384F00D56A39 /* PBXContainerItemProxy */;
 		};
 		D8A033C028BA384F00D56A39 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D8A0339D28BA384E00D56A39 /* MVP_SOLID_TDD */;
+			target = D8A0339D28BA384E00D56A39 /* MVP_SOLID */;
 			targetProxy = D8A033BF28BA384F00D56A39 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -630,7 +630,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MVP_SOLID_TDD.app/MVP_SOLID_TDD";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MVP_SOLID.app/MVP_SOLID";
 			};
 			name = Debug;
 		};
@@ -650,7 +650,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MVP_SOLID_TDD.app/MVP_SOLID_TDD";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MVP_SOLID.app/MVP_SOLID";
 			};
 			name = Release;
 		};
@@ -693,7 +693,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D8A0339928BA384E00D56A39 /* Build configuration list for PBXProject "MVP_SOLID_TDD" */ = {
+		D8A0339928BA384E00D56A39 /* Build configuration list for PBXProject "MVP_SOLID" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D8A033C628BA384F00D56A39 /* Debug */,
@@ -702,7 +702,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D8A033C828BA384F00D56A39 /* Build configuration list for PBXNativeTarget "MVP_SOLID_TDD" */ = {
+		D8A033C828BA384F00D56A39 /* Build configuration list for PBXNativeTarget "MVP_SOLID" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D8A033C928BA384F00D56A39 /* Debug */,
@@ -711,7 +711,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D8A033CB28BA384F00D56A39 /* Build configuration list for PBXNativeTarget "MVP_SOLID_TDDTests" */ = {
+		D8A033CB28BA384F00D56A39 /* Build configuration list for PBXNativeTarget "MVP_SOLIDTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D8A033CC28BA384F00D56A39 /* Debug */,
@@ -720,7 +720,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D8A033CE28BA384F00D56A39 /* Build configuration list for PBXNativeTarget "MVP_SOLID_TDDUITests" */ = {
+		D8A033CE28BA384F00D56A39 /* Build configuration list for PBXNativeTarget "MVP_SOLIDUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D8A033CF28BA384F00D56A39 /* Debug */,

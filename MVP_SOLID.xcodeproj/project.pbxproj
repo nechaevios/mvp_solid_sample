@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D8545FB528BCA4E60045B509 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8545FB428BCA4E60045B509 /* Router.swift */; };
 		D8A033A228BA384E00D56A39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A033A128BA384E00D56A39 /* AppDelegate.swift */; };
 		D8A033A428BA384E00D56A39 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A033A328BA384E00D56A39 /* SceneDelegate.swift */; };
 		D8A033A928BA384E00D56A39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8A033A728BA384E00D56A39 /* Main.storyboard */; };
@@ -44,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D8545FB428BCA4E60045B509 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 		D8A0339E28BA384E00D56A39 /* MVP_SOLID.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVP_SOLID.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8A033A128BA384E00D56A39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D8A033A328BA384E00D56A39 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -119,6 +121,7 @@
 				D8A033D528BA387A00D56A39 /* Application */,
 				D8A033D428BA387000D56A39 /* Resources */,
 				D8A033F028BB72C200D56A39 /* ServiceLayer */,
+				D8545FB428BCA4E60045B509 /* Router.swift */,
 			);
 			path = MVP_SOLID;
 			sourceTree = "<group>";
@@ -382,6 +385,7 @@
 			files = (
 				D8A033F728BB847C00D56A39 /* DetailViewController.swift in Sources */,
 				D8A033A228BA384E00D56A39 /* AppDelegate.swift in Sources */,
+				D8545FB528BCA4E60045B509 /* Router.swift in Sources */,
 				D8A033EF28BB72BF00D56A39 /* NetworkService.swift in Sources */,
 				D8A033DF28BA3A1B00D56A39 /* MainViewPresenter.swift in Sources */,
 				D8A033F228BB7F1500D56A39 /* DetailViewPresenter.swift in Sources */,

@@ -5,7 +5,7 @@ protocol BuilderProtocol {
     func createDetailModule(comment: Comment?, router: RouterProtocol) -> UIViewController
 }
 
-final class ModuleBuilder: BuilderProtocol {
+final class AssemblyBuilder: BuilderProtocol {
     
     func createMainModule(router: RouterProtocol) -> UIViewController {
         let networkService = NetworkService()
